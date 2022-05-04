@@ -1,5 +1,9 @@
-function App() {
-  return <h1>Hello World</h1>;
-}
+import { Widget } from './components/Widget';
 
-export default App;
+export function App() {
+  return (
+    <div className="bg-slate-800 h-screen w-screen">
+      <Widget />
+    </div>
+  );
+}
